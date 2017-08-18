@@ -15,6 +15,10 @@ charset = utf-8
 [*.py]
 indent_size = 4
 
+# 2 space indentation for js
+[*.js]
+indent_size = 2
+
 # Matches the exact files either package.json or .travis.yml
 [{*.json,.*.yml}]
 indent_size = 2
